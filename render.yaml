@@ -3,4 +3,4 @@ services:
     name: wamo-backend
     env: node
     buildCommand: npm install
-    startCommand: node server.js
+    startCommand: npm start
