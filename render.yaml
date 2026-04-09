@@ -2,5 +2,6 @@ services:
   - type: web
     name: wamo-backend
     env: node
+    nodeVersion: 18
     buildCommand: npm install
     startCommand: npm start
